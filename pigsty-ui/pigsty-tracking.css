@@ -1,0 +1,3207 @@
+.pigsty-tracking-container {
+  min-height: 100vh;
+}
+.pigsty-tracking-pigsty-tracking {
+  width: 100%;
+  height: 980px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  background-color: rgba(255, 255, 255, 1);
+}
+.pigsty-tracking-pigsty {
+  top: 38px;
+  left: 39px;
+  width: 863px;
+  height: 584.5482788085938px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-home {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.pigsty-tracking-polygon1 {
+  width: 606px;
+  height: 112px;
+  position: relative;
+  margin-bottom: 0px;
+}
+.pigsty-tracking-rectangle1 {
+  width: 520px;
+  height: 468px;
+  position: relative;
+  border-color: rgba(0, 0, 0, 1);
+}
+.pigsty-tracking-heating-span {
+  top: 120px;
+  left: 160px;
+  width: 75px;
+  height: auto;
+  position: absolute;
+}
+.pigsty-tracking-emojionemonotonelightbulb {
+  top: 140px;
+  left: 160px;
+  width: 64px;
+  height: 62px;
+  position: absolute;
+}
+.pigsty-tracking-light-span {
+  top: 120px;
+  left: 60px;
+  width: 75px;
+  height: auto;
+  position: absolute;
+}
+.pigsty-tracking-emojionelightbulb {
+  top: 140px;
+  left: 60px;
+  width: 64px;
+  height: 62px;
+  position: absolute;
+}
+.pigsty-tracking-bifan-span-1 {
+  top: 120px;
+  left: 255px;
+  width: 75px;
+  height: auto;
+  position: absolute;
+}
+.pigsty-tracking-bifan-span-2 {
+  top: 120px;
+  left: 335px;
+  width: 75px;
+  height: auto;
+  position: absolute;
+}
+.pigsty-tracking-bifan {
+  top: 140px;
+  left: 248px;
+  width: 64px;
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.pigsty-tracking-group {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 60px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector {
+  top: 7.725828647613525px;
+  left: 8.064000129699707px;
+  width: 48px;
+  height: 46px;
+  position: absolute;
+}
+.pigsty-tracking-vector01 {
+  top: -2.220446049250313e-16px;
+  left: -1.5543122344752192e-15px;
+  width: 64px;
+  height: 62px;
+  position: absolute;
+}
+.pigsty-tracking-bifan1 {
+  top: 140px;
+  left: 328px;
+  width: 64px;
+  height: 60px;
+  display: flex;
+  overflow: hidden;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.pigsty-tracking-group01 {
+  top: 0px;
+  left: 0px;
+  width: 64px;
+  height: 61.806854248046875px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector02 {
+  top: 7.725828647613525px;
+  left: 8.064000129699707px;
+  width: 48px;
+  height: 46px;
+  position: absolute;
+}
+.pigsty-tracking-vector03 {
+  top: -2.220446049250313e-16px;
+  left: -1.5543122344752192e-15px;
+  width: 64px;
+  height: 62px;
+  position: absolute;
+}
+.pigsty-tracking-shower {
+  top: 290.9657287597656px;
+  left: 167px;
+  height: 61.806854248046875px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.pigsty-tracking-cilshower {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  margin-right: 20px;
+}
+.pigsty-tracking-cilshower1 {
+  width: 64px;
+  height: 64px;
+  position: relative;
+  margin-right: 20px;
+}
+.pigsty-tracking-cilshower2 {
+  width: 64px;
+  height: 64px;
+  position: relative;
+}
+.pigsty-tracking-water {
+  top: 473.4891052246094px;
+  left: 642px;
+  width: 150px;
+  height: 111.05918884277344px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-materialsymbolswaterrounded {
+  top: 7.725817680358887px;
+  left: 25px;
+  width: 100px;
+  height: 97px;
+  position: absolute;
+}
+.pigsty-tracking-systemuiconscheckboxempty {
+  top: 0px;
+  left: 0px;
+  width: 150px;
+  height: 111px;
+  position: absolute;
+}
+.pigsty-tracking-pigs {
+  top: 441.61993408203125px;
+  left: 66px;
+  height: 77.2585678100586px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.pigsty-tracking-fluentemojipig {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+.pigsty-tracking-group02 {
+  top: 21.25px;
+  left: 5px;
+  width: 72.90961456298828px;
+  height: 52.5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-group03 {
+  top: 0px;
+  left: 0px;
+  width: 72.90961456298828px;
+  height: 52.5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector04 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector05 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector06 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector07 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector08 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector09 {
+  top: 40px;
+  left: 44.99040985107422px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.pigsty-tracking-vector10 {
+  top: 40px;
+  left: 32.5px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.pigsty-tracking-vector11 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector12 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector13 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector14 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector15 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector16 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector17 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector18 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector19 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector20 {
+  top: 37.5px;
+  left: 27.5px;
+  width: 27px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector21 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector22 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector23 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector24 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-group04 {
+  top: 17.8075008392334px;
+  left: 13.220000267028809px;
+  width: 2.0350003242492676px;
+  height: 4.3850016593933105px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector25 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 4px;
+  position: absolute;
+}
+.pigsty-tracking-vector26 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector27 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector28 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-group05 {
+  top: 0.8947229385375977px;
+  left: 41.72538375854492px;
+  width: 31.184234619140625px;
+  height: 33.61555480957031px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector29 {
+  top: 10.418506622314453px;
+  left: -9.5367431640625e-7px;
+  width: 20px;
+  height: 27px;
+  position: absolute;
+}
+.pigsty-tracking-group06 {
+  top: 33.724998474121094px;
+  left: 62.150001525878906px;
+  width: 2.2249984741210938px;
+  height: 16.719999313354492px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector30 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 17px;
+  position: absolute;
+}
+.pigsty-tracking-group07 {
+  top: 1.4225006103515625px;
+  left: 11.092499732971191px;
+  width: 10.860000610351562px;
+  height: 5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector31 {
+  top: 0px;
+  left: 0px;
+  width: 11px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-fluentemojipig1 {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-right: 15px;
+}
+.pigsty-tracking-group08 {
+  top: 21.25px;
+  left: 5px;
+  width: 72.90961456298828px;
+  height: 52.5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-group09 {
+  top: 0px;
+  left: 0px;
+  width: 72.90961456298828px;
+  height: 52.5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector32 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector33 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector34 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector35 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector36 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector37 {
+  top: 40px;
+  left: 44.99040985107422px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.pigsty-tracking-vector38 {
+  top: 40px;
+  left: 32.5px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.pigsty-tracking-vector39 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector40 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector41 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector42 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector43 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector44 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector45 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector46 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector47 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector48 {
+  top: 37.5px;
+  left: 27.5px;
+  width: 27px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector49 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector50 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector51 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector52 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-group10 {
+  top: 17.8075008392334px;
+  left: 13.220000267028809px;
+  width: 2.0350003242492676px;
+  height: 4.3850016593933105px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector53 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 4px;
+  position: absolute;
+}
+.pigsty-tracking-vector54 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector55 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector56 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-group11 {
+  top: 0.8947229385375977px;
+  left: 41.72538375854492px;
+  width: 31.184234619140625px;
+  height: 33.61555480957031px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector57 {
+  top: 10.418506622314453px;
+  left: -9.5367431640625e-7px;
+  width: 20px;
+  height: 27px;
+  position: absolute;
+}
+.pigsty-tracking-group12 {
+  top: 33.724998474121094px;
+  left: 62.150001525878906px;
+  width: 2.2249984741210938px;
+  height: 16.719999313354492px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector58 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 17px;
+  position: absolute;
+}
+.pigsty-tracking-group13 {
+  top: 1.4225006103515625px;
+  left: 11.092499732971191px;
+  width: 10.860000610351562px;
+  height: 5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector59 {
+  top: 0px;
+  left: 0px;
+  width: 11px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-fluentemojipig2 {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+}
+.pigsty-tracking-group14 {
+  top: 21.25px;
+  left: 5px;
+  width: 72.90961456298828px;
+  height: 52.5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-group15 {
+  top: 0px;
+  left: 0px;
+  width: 72.90961456298828px;
+  height: 52.5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector60 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector61 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector62 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector63 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector64 {
+  top: 4.957365989685059px;
+  left: 65px;
+  width: 5px;
+  height: 18px;
+  position: absolute;
+}
+.pigsty-tracking-vector65 {
+  top: 40px;
+  left: 44.99040985107422px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.pigsty-tracking-vector66 {
+  top: 40px;
+  left: 32.5px;
+  width: 7px;
+  height: 12px;
+  position: absolute;
+}
+.pigsty-tracking-vector67 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector68 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector69 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector70 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector71 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector72 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector73 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector74 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector75 {
+  top: 0px;
+  left: 0px;
+  width: 70px;
+  height: 52px;
+  position: absolute;
+}
+.pigsty-tracking-vector76 {
+  top: 37.5px;
+  left: 27.5px;
+  width: 27px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector77 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector78 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector79 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-vector80 {
+  top: 15.05000114440918px;
+  left: 0px;
+  width: 5px;
+  height: 15px;
+  position: absolute;
+}
+.pigsty-tracking-group16 {
+  top: 17.8075008392334px;
+  left: 13.220000267028809px;
+  width: 2.0350003242492676px;
+  height: 4.3850016593933105px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector81 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 4px;
+  position: absolute;
+}
+.pigsty-tracking-vector82 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector83 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-vector84 {
+  top: 17.5px;
+  left: 12.5px;
+  width: 2px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-group17 {
+  top: 0.8947229385375977px;
+  left: 41.72538375854492px;
+  width: 31.184234619140625px;
+  height: 33.61555480957031px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector85 {
+  top: 10.418506622314453px;
+  left: -9.5367431640625e-7px;
+  width: 20px;
+  height: 27px;
+  position: absolute;
+}
+.pigsty-tracking-group18 {
+  width: 76px;
+  height: 25px;
+  text-align: center;
+  /* display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1; */
+  /* border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start; */
+  font-size: 20px;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #00AA00;
+  cursor: pointer;
+}
+
+.pigsty-tracking-vector86 {
+  top: 0px;
+  left: 0px;
+  width: 2px;
+  height: 17px;
+  position: absolute;
+}
+.pigsty-tracking-group19 {
+  top: 1.4225006103515625px;
+  left: 11.092499732971191px;
+  width: 10.860000610351562px;
+  height: 5px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-vector87 {
+  top: 0px;
+  left: 0px;
+  width: 11px;
+  height: 5px;
+  position: absolute;
+}
+.pigsty-tracking-drinking {
+  top: 340.21807861328125px;
+  left: 224px;
+  width: 639px;
+  height: 125.54517364501953px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-materialsymbolsheatpumpbalancerounded {
+  top: 63.73830795288086px;
+  left: 520px;
+  width: 64px;
+  height: 62px;
+  position: absolute;
+}
+.pigsty-tracking-drinktube {
+  top: -2px;
+  left: -1px;
+  display: flex;
+  position: absolute;
+  align-items: flex-end;
+  border-color: transparent;
+  flex-direction: column;
+  justify-content: center;
+}
+.pigsty-tracking-rectangle5 {
+  width: 639px;
+  height: 10px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 0 7px 0 0;
+  margin-bottom: 0px;
+}
+.pigsty-tracking-rectangle6 {
+  width: 10px;
+  height: 56px;
+  position: relative;
+  border-color: transparent;
+  margin-bottom: 0px;
+}
+.pigsty-tracking-rectangle7 {
+  width: 60px;
+  height: 10px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 7px 0 0;
+}
+.pigsty-tracking-eating {
+  top: 403.9563903808594px;
+  left: 437px;
+  width: 247px;
+  height: 94.00003051757812px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  border-radius: 0px 0px 0px 0px;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-materialsymbolsheatpumpbalancerounded1 {
+  top: -1px;
+  right: 2px;
+  width: 64px;
+  height: 62px;
+  position: absolute;
+}
+.pigsty-tracking-rectangle8 {
+  top: -1px;
+  left: 64px;
+  width: 118px;
+  height: 10px;
+  position: absolute;
+  border-color: transparent;
+}
+.pigsty-tracking-frame4 {
+  top: -1px;
+  left: -2px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  border-color: transparent;
+  flex-direction: column;
+}
+.pigsty-tracking-rectangle9 {
+  width: 10px;
+  height: 48px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 7px 0 0;
+  margin-bottom: 0px;
+}
+.pigsty-tracking-rectangle10 {
+  width: 122px;
+  height: 46px;
+  position: relative;
+  border-color: transparent;
+  text-align: center;
+  border-radius: 10px;
+}
+.pigsty-tracking-environment {
+  top: 125.82554626464844px;
+  left: 430px;
+  height: 82.08722686767578px;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-shrink: 0;
+  border-color: transparent;
+  flex-direction: column;
+}
+.pigsty-tracking-temperature {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.pigsty-tracking-carbontemperaturecelsius {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin-right: 15px;
+}
+.pigsty-tracking-text {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.pigsty-tracking-humidity {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  justify-content: center;
+}
+.pigsty-tracking-wihumidity {
+  width: 35px;
+  height: 35px;
+  position: relative;
+  margin-right: 15px;
+}
+.pigsty-tracking-text02 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.pigsty-tracking-input-pig-information {
+  top: 73px;
+  left: 973px;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  padding: 0;
+  position: absolute;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-input {
+  top: 0px;
+  left: 0px;
+  display: flex;
+  padding: 10px 20px 10px 20px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.pigsty-tracking-title {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 15px;
+  justify-content: center;
+}
+.pigsty-tracking-text04 {
+  color: var(--dl-color-gray-black);
+  height: auto;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.pigsty-tracking-id {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: yellow;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+.pigsty-tracking-text05 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 19px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+  border-color: #4CAFFF;
+  border-bottom: 2px;
+}
+.pigsty-tracking-rectangle3 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: black;
+  border-radius: 5px;
+  border-width: 0.5px;
+  background-color: #E8E8E8;
+}
+input[type=text], select {
+  padding: 0px 5px;
+  height: 27px;
+  display: inline-block;
+  border: 1px solid #CFCFCF;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.pigsty-tracking-weight {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+.pigsty-tracking-text07 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle301 {
+  width: 248px;
+  height: 22px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-id01 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+.pigsty-tracking-text09 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle302 {
+  width: 248px;
+  height: 22px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-id02 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 15px;
+  flex-direction: column;
+}
+.pigsty-tracking-text11 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle303 {
+  width: 248px;
+  height: 22px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-button-off {
+  width: 120px;
+  height: 55px;
+  font-size: 20px;
+  text-align: center;
+  border-color: transparent;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #EE0000;
+  cursor: pointer;
+}
+.pigsty-tracking-button-off:hover {
+  background-color: #CD0000;
+}
+.pigsty-tracking-button {
+  width: 120px;
+  height: 55px;
+  font-size: 20px;
+  text-align: center;
+  border-color: transparent;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #00AA00;
+  cursor: pointer;
+}
+.pigsty-tracking-button:hover {
+  background-color: #008800;
+}
+
+.pigsty-tracking-button-input {
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  text-align: center;
+  border-color: transparent;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #00AA00;
+  cursor: pointer;
+}
+.pigsty-tracking-button-input:hover {
+  background-color: #008800;
+}
+
+.pigsty-tracking-button-setting {
+  width: 76px;
+  height: 25px;
+  font-size: 17px;
+  text-align: center;
+  border-color: transparent;
+  border-radius: var(--dl-radius-radius-radius8);
+  background-color: #00AA00;
+  cursor: pointer;
+}
+.pigsty-tracking-button-setting:hover {
+  background-color: #008800;
+}
+.pigsty-tracking-text13 {
+  top: 6.848114013671875px;
+  left: 32.230224609375px;
+  color: rgba(0, 0, 0, 1);
+  width: 59px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-manual {
+  top: 480px;
+  left: 973px;
+  width: auto;
+  display: flex;
+  padding: 10px 5px 10px 5px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+.pigsty-tracking-frame1 {
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-text15 {
+  color: var(--dl-color-gray-black);
+  height: auto;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.pigsty-tracking-row1 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-light {
+  width: 120px;
+  height: 55px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0px;
+  margin-right: 10px;
+  margin-left: 10px;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text16 {
+  top: 16.903491973876953px;
+  left: 29px;
+  color: rgba(0, 0, 0, 1);
+  width: 86px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-heating {
+  width: 120px;
+  height: 55px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text18 {
+  top: 16.903491973876953px;
+  left: 29px;
+  color: rgba(0, 0, 0, 1);
+  width: 86px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row2 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-light1 {
+  width: 143px;
+  height: 66.55743408203125px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text20 {
+  top: 16px;
+  left: 23px;
+  color: rgba(0, 0, 0, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-light2 {
+  width: 143px;
+  height: 66.55743408203125px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text22 {
+  top: 16px;
+  left: 21px;
+  color: rgba(0, 0, 0, 1);
+  width: 101px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row3 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-light3 {
+  width: 143px;
+  height: 66.55743408203125px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text24 {
+  top: 16px;
+  left: 23px;
+  color: rgba(0, 0, 0, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-light4 {
+  width: 143px;
+  height: 66.55743408203125px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text26 {
+  top: 16px;
+  left: 21px;
+  color: rgba(0, 0, 0, 1);
+  width: 101px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row4 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.pigsty-tracking-light5 {
+  width: 143px;
+  height: 66.55743408203125px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 15px;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text28 {
+  top: 16px;
+  left: 23px;
+  color: rgba(0, 0, 0, 1);
+  width: 98px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-light6 {
+  width: 143px;
+  height: 66.55743408203125px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text30 {
+  top: 16px;
+  left: 21px;
+  color: rgba(0, 0, 0, 1);
+  width: 101px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-setting {
+  top: 73px;
+  left: 1320px;
+  width: 356px;
+  display: flex;
+  padding: 10px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+.pigsty-tracking-row0 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 10px;
+  justify-content: center;
+}
+.pigsty-tracking-text32 {
+  color: rgb(0, 0, 0);
+  height: auto;
+  font-size: 25px;
+  align-self: auto;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.pigsty-tracking-row11 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-button1 {
+  width: 143px;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 25px;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-rectangle4 {
+  top: 0px;
+  left: 0px;
+  width: 143px;
+  height: 50px;
+  position: absolute;
+}
+.pigsty-tracking-text33 {
+  top: 1px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-group7 {
+  width: 143px;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-rectangle41 {
+  top: 0px;
+  left: 0px;
+  width: 143px;
+  height: 50px;
+  position: absolute;
+}
+.pigsty-tracking-text35 {
+  top: 1px;
+  left: 37px;
+  color: rgba(0, 0, 0, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row21 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-button2 {
+  width: 143px;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 25px;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-rectangle42 {
+  top: 0px;
+  left: 0px;
+  width: 143px;
+  height: 50px;
+  position: absolute;
+}
+.pigsty-tracking-text37 {
+  top: 12px;
+  left: 42.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-group71 {
+  width: 143px;
+  height: 50px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: 0px 0px 0px 0px;
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+.pigsty-tracking-rectangle43 {
+  top: 0px;
+  left: 0px;
+  width: 143px;
+  height: 50px;
+  position: absolute;
+}
+.pigsty-tracking-text39 {
+  top: 12px;
+  left: 50.5px;
+  color: rgba(0, 0, 0, 1);
+  width: 70px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row31 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id03 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text41 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle304 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group18 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  /* align-items: flex-start;
+  flex-shrink: 1;
+  justify-content: flex-start; */
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  font-size: 15px;
+  text-align: center;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text43 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row41 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id04 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text45 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle305 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1801 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text47 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row5 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id05 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text49 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle306 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1802 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text51 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row6 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id06 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text53 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle307 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1803 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text55 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row7 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id07 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text57 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle308 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1804 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text59 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row8 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id08 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text61 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle309 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1805 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text63 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row9 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id09 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text65 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle310 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1806 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text67 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row10 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id10 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text69 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle311 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1807 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text71 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row11 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id11 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text73 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle312 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1808 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text75 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-row12 {
+  display: flex;
+  position: relative;
+  align-items: flex-end;
+  border-color: transparent;
+}
+.pigsty-tracking-id12 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 12px;
+  flex-direction: column;
+}
+.pigsty-tracking-text77 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle313 {
+  width: 248px;
+  height: 25px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-group1809 {
+  width: 76px;
+  height: 25px;
+  display: flex;
+  padding: 0;
+  position: relative;
+  align-self: auto;
+  box-sizing: border-box;
+  align-items: flex-start;
+  flex-shrink: 1;
+  border-color: transparent;
+  border-style: none;
+  border-width: 0;
+  margin-right: 0;
+  border-radius: var(--dl-radius-radius-radius8);
+  margin-bottom: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  background-color: rgba(83, 169, 92, 1);
+}
+.pigsty-tracking-text79 {
+  top: 0.9615297913551331px;
+  left: 15px;
+  color: rgba(0, 0, 0, 1);
+  width: 51px;
+  height: auto;
+  position: absolute;
+  font-size: 20px;
+  align-self: auto;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.pigsty-tracking-display-pig-information {
+  top: 660px;
+  left: 82px;
+  width: 556px;
+  display: flex;
+  padding: 10px 15px;
+  position: absolute;
+  align-items: center;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 10px;
+  flex-direction: column;
+  justify-content: center;
+}
+.pigsty-tracking-row12 {
+  width: 220px;
+  height: 50px;
+  display: flex;
+  padding: 10px;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-text81 {
+  color: var(--dl-color-gray-black);
+  height: auto;
+  flex-grow: 1;
+  font-size: 25px;
+  align-self: stretch;
+  font-style: Medium;
+  text-align: center;
+  font-family: Inter;
+  font-weight: 500;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.pigsty-tracking-row22 {
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-color: transparent;
+  margin-bottom: 10px;
+}
+.pigsty-tracking-id13 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 31px;
+  flex-direction: column;
+}
+.pigsty-tracking-text82 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle314 {
+  width: 248px;
+  height: 22px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-weight1 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.pigsty-tracking-text84 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle315 {
+  width: 248px;
+  height: 22px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-row32 {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+}
+.pigsty-tracking-dateadd {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  margin-right: 30px;
+  flex-direction: column;
+}
+.pigsty-tracking-text86 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle316 {
+  width: 248px;
+  height: 22px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
+.pigsty-tracking-datevaccin {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  border-color: transparent;
+  flex-direction: column;
+}
+.pigsty-tracking-text88 {
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  font-size: 20px;
+  align-self: stretch;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inter;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  margin-right: 0;
+  margin-bottom: 5px;
+  text-decoration: none;
+}
+.pigsty-tracking-rectangle317 {
+  width: 248px;
+  height: 22px;
+  position: relative;
+  border-color: transparent;
+  border-radius: 10px;
+}
