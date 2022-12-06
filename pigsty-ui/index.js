@@ -127,7 +127,7 @@ function changeControl(i)
                 img_drink.src = "public/playground_assets/mditap.svg";
                 break;
             case 6:
-                img_food.src = "public/playground_assets/retangle-food.svg"
+                img_food.src = "public/playground_assets/rectangle-food.svg"
                 break;
             case 7: 
                 control_buttons[i].textContent = "AUTO";
@@ -171,7 +171,7 @@ function changeControl(i)
                 img_drink.src = "public/playground_assets/mditap-on.svg";
                 break;
             case 6:
-                img_food.src = "public/playground_assets/retangle-food-on.svg"
+                img_food.src = "public/playground_assets/rectangle-food-on.svg"
                 break;
             case 7:
                 control_buttons[i].textContent = "MANUAL";
