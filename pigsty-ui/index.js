@@ -174,12 +174,11 @@ socket.on('event-update-parameter', function(data) {
     parameter_food.textContent = array[2];
     parameter_weight.value = array[3] > 5 ? array[3] : null;
 
-    console.log(String(data.date_add));
-    input_date_add.value = String(data.date_add);
+    if (array[3] > 5) input_date_add.value = String(data.date_add);
 });
 
 // set focus hidden input
-var waiting = true;
+// var waiting = true;
 // setInterval(() => {
 //     parameter_humi.textContent = parameter_temp.textContent = value++;
 //     console.log(value);

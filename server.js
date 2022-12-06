@@ -36,11 +36,11 @@ let message = {
 
 let pigs = [];
 
-let settingOffsets = { humidity_max: 0, humidity_min: 2, temp_max: 4, temp_min: 6, eating: 8, light_start: 10, light_stop: 12, time_eating_morning: 14, time_eating_lunch: 16, time_eating_dinner: 18 };
+let settingOffsets = { humidity_max: 0, humidity_min: 2, temp_max: 4, temp_min: 6, eating: 8, light_start: 10, light_stop: 12, time_eating_morning: 14, time_eating_lunch: 16, time_eating_dinner: 18, time_shower: 20, time_drinking: 22 };
 
 let controlOffsets = { light: 0, fan_1: 1, fan_2: 2, heating_lamp: 3, pump_shower: 4, pump_drink: 5, food: 6, runing_status: 7, auto: 8, start: 9 }; // start, stop, auto, manual,...
 
-let controlValues= [ '0', '0', '1', '0', '0', '0', '0', '0', '0' ]; // save 
+let controlValues= [ '0', '0', '0', '0', '0', '0', '0', '0', '0' ]; // save 
 
 let parameterValues = [0, 0, 0, 0]; // save temperature = [0], humidity = [0], m_food = [0], m_pig = [0]
 
@@ -194,7 +194,7 @@ function turnControl(controlOffset)
 {
     if (!s7client.Connected())
     {
-        console.log('>> S7 Client is not connect'.red);
+        console.log('>> PLC isn\'t connected is not connect'.red);
         return false;
     }
 
@@ -235,7 +235,7 @@ function updateControl()
 {
     if (!s7client.Connected())
     {
-        console.log('>> S7 Client is not connect'.red);
+        console.log('>> PLC isn\'t connected is not connect'.red);
         return;
     }
 
@@ -259,7 +259,7 @@ function setSettings(settingOffset, value)
 {
     if (!s7client.Connected())
     {
-        console.log('>> S7 Client is not connect'.red);
+        console.log('>> PLC isn\'t connected is not connect'.red);
         return;
     }
 
@@ -282,7 +282,7 @@ function updateParameter()
 {
     if (!s7client.Connected())
     {
-        console.log('>> S7 Client is not connect'.red);
+        console.log('>> PLC isn\'t connected is not connect'.red);
         return;
     }
 

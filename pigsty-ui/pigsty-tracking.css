@@ -1441,7 +1441,7 @@
   text-decoration: none;
 }
 .pigsty-tracking-input-pig-information {
-  top: 73px;
+  top: 50px;
   left: 973px;
   width: 300px;
   height: 350px;
@@ -2065,7 +2065,7 @@ input[type=text], select {
   text-decoration: none;
 }
 .pigsty-tracking-setting {
-  top: 73px;
+  top: 50px;
   left: 1320px;
   width: 356px;
   display: flex;
