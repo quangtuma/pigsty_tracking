@@ -164,7 +164,7 @@ function changeControl(i)
                 break;
             case 4:
                 img_shower.forEach(element => {
-                    element.src = "public/playground_assets/cilshower-off.svg";
+                    element.src = "public/playground_assets/cilshower-on.svg";
                 });
                 break;
             case 5:
