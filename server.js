@@ -102,6 +102,26 @@ io.on('connection', function(socket) {
         }
     });
 
+    socket.on('event-delete-click', data => {
+        var result = false;
+        if (data.idOutput != null)
+        {
+            var idx = pigs.findIndex(element => element.id == data.idOutput);
+            if (idx >= 0)
+            {
+                pigs.splice(pigs[idx], 1);
+                recordData();
+                result = true;
+            }
+            else 
+            {
+                result = false;
+            }
+        }
+
+        io.sockets.emit('feedback-delete-click', { result:result });
+    });
+
     socket.on('event-get-infor', data => {
         console.log(data);
 

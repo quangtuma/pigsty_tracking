@@ -3158,6 +3158,7 @@ input[type=text], select {
   position: relative;
   align-items: flex-start;
   border-color: transparent;
+  margin-bottom: 10px;
 }
 .pigsty-tracking-dateadd {
   display: flex;
