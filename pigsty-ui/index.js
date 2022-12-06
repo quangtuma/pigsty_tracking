@@ -22,6 +22,11 @@ var pig_infor = document.querySelectorAll("[id^='infor-']");
 
 var img_light = document.querySelector("#img-light");
 var img_heating = document.querySelector("#img-heating");
+var img_fan1 = document.querySelector("#img-fan-1");
+var img_fan2 = document.querySelector("#img-fan-2");
+var img_shower = document.querySelectorAll("[id^='img-shower-']");
+var img_drink = document.querySelector("#img-drink");
+var img_food = document.querySelector("#img-food");
 //#endregion
 
 var input_date_add = document.querySelector("#input-date-add");
@@ -99,20 +104,40 @@ function changeControl(i)
             replace = "Bật";
             search = "Tắt";
         }
-
-        if (i == 0)
+        switch (i)
         {
-            img_heating.src = "public/playground_assets/emojionemonotonelightbulb411-3tbs.svg";
+            case 0:
+                img_heating.src = "public/playground_assets/emojionemonotonelightbulb411-3tbs.svg";
+                break;
+            case 1:
+                img_fan1.src = "public/playground_assets/vector1041-foff24.svg";
+                break;
+            case 2:
+                img_fan2.src = "public/playground_assets/vector1041-foff24.svg";
+                break;
+            case 3:
+                img_light.src = "public/playground_assets/emojionemonotonelightbulb411-3tbs.svg";
+                break;
+            case 4: 
+                img_shower.forEach(element => {
+                    element.src = "public/playground_assets/cilshower-off.svg";
+                });
+                break;
+            case 5:
+                img_drink.src = "public/playground_assets/mditap.svg";
+                break;
+            case 6:
+                img_food.src = "public/playground_assets/retangle-food.svg"
+                break;
+            case 7: 
+                control_buttons[i].textContent = "AUTO";
+                break;
+            case 8:
+                control_buttons[i].textContent = "START";
+                break;
+            default:
+                break;
         }
-        else if (i == 1)
-        {
-            img_light.src = "public/playground_assets/emojionemonotonelightbulb411-3tbs.svg";
-        }
-
-        if (i == 7)
-            control_buttons[i].textContent = "AUTO";
-        if (i == 8)
-            control_buttons[i].textContent = "START";
     } 
     else 
     {
@@ -123,19 +148,40 @@ function changeControl(i)
             replace = "Tắt";
             search = "Bật";
         }
-        if (i == 0)
+        switch (i)
         {
-            img_heating.src = "public/playground_assets/emojionelightbulb413-te19.svg";
+            case 0:
+                img_heating.src = "public/playground_assets/emojionelightbulb413-te19.svg";
+                break;
+            case 1:
+                img_fan1.src = "public/playground_assets/vector1041-fo24.svg";
+                break;
+            case 2:
+                img_fan2.src = "public/playground_assets/vector1041-fo24.svg";
+                break;
+            case 3:
+                img_light.src = "public/playground_assets/emojionelightbulb413-te19.svg";
+                break;
+            case 4:
+                img_shower.forEach(element => {
+                    element.src = "public/playground_assets/cilshower-off.svg";
+                });
+                break;
+            case 5:
+                img_drink.src = "public/playground_assets/mditap-on.svg";
+                break;
+            case 6:
+                img_food.src = "public/playground_assets/retangle-food-on.svg"
+                break;
+            case 7:
+                control_buttons[i].textContent = "MANUAL";
+                break;
+            case 8:
+                control_buttons[i].textContent = "STOP";
+                break;
+            default:
+                break;
         }
-        else if (i == 1)
-        {
-            img_light.src = "public/playground_assets/emojionelightbulb413-te19.svg";
-        }
-
-        if (i == 7)
-            control_buttons[i].textContent = "MANUAL";
-        if (i == 8)
-            control_buttons[i].textContent = "STOP";
     }
 
     if (i < 7) control_buttons[i].textContent = control_buttons[i].textContent.replace(search, replace);
