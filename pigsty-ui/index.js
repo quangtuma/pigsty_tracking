@@ -19,6 +19,7 @@ var input_button = document.querySelector('#button-input');
 var pig_inputs = document.querySelectorAll("[id^='input-']");
 
 var pig_infor = document.querySelectorAll("[id^='infor-']");
+var output_button = document.querySelector('#button-output');
 
 var img_light = document.querySelector("#img-light");
 var img_heating = document.querySelector("#img-heating");
@@ -69,7 +70,14 @@ function setAddEventListeners(){
         socket.emit('event-save-click', { infor:infor });
 
     });
-    
+
+    output_button.addEventListener('click', function(e) {
+        e.preventDefault();
+
+        socket.emit('event-delete-click', { idOutput:pig_infor[0].value });
+
+    });
+
     pig_infor[0].addEventListener('input', function(){
         if (pig_infor[0].value.length == 10)
         {
@@ -189,7 +197,15 @@ function changeControl(i)
 
 socket.on('feedback-save-click', function(data) {
     console.log(data);
+    pig_inputs.forEach(element => { element.value = null; console.log(element.value); });
     data.result ? alert('Save successfully') : alert ('ID already exists');
+});
+
+socket.on('feedback-delete-click', function(data) {
+    console.log(data);
+    if (data.result) 
+        pig_infor.forEach(element => { element.value = null });
+    data.result ? alert('Out of a pig successfully') : alert ('ID already is not exists or correct');
 });
 
 socket.on('feedback-control-click', function(data) {

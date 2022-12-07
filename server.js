@@ -110,6 +110,7 @@ io.on('connection', function(socket) {
             if (idx >= 0)
             {
                 pigs.splice(pigs[idx], 1);
+                console.log(pigs);
                 recordData();
                 result = true;
             }
