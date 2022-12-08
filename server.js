@@ -1,3 +1,6 @@
+//  THIS FILE IS SERVER IS USE FOR HANDLE, CONTROL AND INTERACTIVE WITH CLIENT (WEBSITE CLIENT)
+
+// initialize library and object
 const express = require('express');
 const app = express();
 const http = require('http');
@@ -14,6 +17,8 @@ const { info } = require('console');
 colors.enable();
 
 //#region s7 plc client
+
+// initialize s7 PLC client and connect to PLC
 var s7client = new snap7.S7Client();
 s7client.ConnectTo('192.168.1.129', 0, 0, function(err) {
     if(err)
@@ -22,18 +27,9 @@ s7client.ConnectTo('192.168.1.129', 0, 0, function(err) {
 
 //#endregion
 
-var userCount = 0;
-var value = 20;
-var nameButton = 'David Jonny Dang, Khoa Pug, Vuong Pham';
-
-let message = {
-    userCount: userCount,
-    value: value,
-    nameButton: nameButton
-};
-
 //#region fields
 
+// initialize store array
 let pigs = [];
 
 let settingOffsets = { humidity_max: 0, humidity_min: 2, temp_max: 4, temp_min: 6, eating: 8, light_start: 10, light_stop: 12, time_eating_morning: 14, time_eating_lunch: 16, time_eating_dinner: 18, time_shower: 20, time_drinking: 22 };
@@ -47,16 +43,19 @@ let parameterValues = [0, 0, 0, 0]; // save temperature = [0], humidity = [0], m
 //#endregion
 
 //#region app, server and socket io
+
+// use user interface in pigsty-ui for web app
 app.use(express.static(__dirname + '/pigsty-ui'));
 app.get('/', (req, res) => { res.sendFile(__dirname + '/pigsty-ui/index.html') });
 
-
+// handle io socket connection event 
 io.on('connection', function(socket) {
     console.log('A connection');
 
     loadData();
     updateControl();
 
+    // handle io socket disconnection event 
     socket.on('disconnect', () => {
         userCount--;
         io.sockets.emit('userCount', {message:message});
@@ -64,16 +63,19 @@ io.on('connection', function(socket) {
 
     });
 
+    // handle input setting click event in setting
     socket.on('event-setting-click', data => {
         //console.log(data);
         setSettings(data.message.setting * 2, data.message.value);
     });
 
+    // handle parameters control click event in manual
     socket.on('event-control-click', data => {
         //console.log(data);
         turnControl(data.offset);
     });
 
+    // handle pig information save in pig input
     socket.on('event-save-click', data => {
         //console.log(data);
 
@@ -102,6 +104,7 @@ io.on('connection', function(socket) {
         }
     });
 
+    // handle pig information output in pig information part
     socket.on('event-delete-click', data => {
         var result = false;
         if (data.idOutput != null)
@@ -122,6 +125,7 @@ io.on('connection', function(socket) {
         io.sockets.emit('feedback-delete-click', { result:result });
     });
 
+    // handle event when scan rfid in id textbox in pig information part
     socket.on('event-get-infor', data => {
         console.log(data);
 
@@ -145,12 +149,13 @@ io.on('connection', function(socket) {
 
 })
 
+// server run at port, listen client connect to 8080 port (website "localhost:8080")
 server.listen(process.env.PORT, () => console.log('Server is listening at port 8080..'));
 
 //#endregion
 
 //#region timer
-
+// set timer to update data to client through parameter update event
 setInterval(() => {
 
     var date_now = new Date();
@@ -164,16 +169,7 @@ setInterval(() => {
 
 //#region pigs control
 
-function addPig(pig)
-{
-    return pigs.push(pig);
-}
-
-function getPig(id)
-{
-    return pigs.find(element => element.id == id);
-}
-
+// store pig information to .txt file
 function recordData()
 {
     fs.writeFile(
@@ -188,6 +184,7 @@ function recordData()
     );
 }
 
+// load pig information in .txt file
 function loadData()
 {
     fs.readFile(process.env.PATH_PIGS, function (err, data) {
@@ -210,6 +207,7 @@ function loadData()
     });
 }
 
+// auto turn on or off in manual control from plc
 function turnControl(controlOffset)
 {
     if (!s7client.Connected())
@@ -251,6 +249,7 @@ function turnControl(controlOffset)
     return result;
 }
 
+// udpate status of turning on or off in manual control at initialization from plc
 function updateControl()
 {
     if (!s7client.Connected())
@@ -275,6 +274,7 @@ function updateControl()
     );
 }
 
+// set parameter as eating, drinking, timer... to plc
 function setSettings(settingOffset, value)
 {
     if (!s7client.Connected())
@@ -298,6 +298,7 @@ function setSettings(settingOffset, value)
 
 }
 
+// update parameter as temperature, humidity,.. from plc to update to client
 function updateParameter()
 {
     if (!s7client.Connected())
@@ -327,7 +328,7 @@ function updateParameter()
 
 //#endregion
 
-//#region convert
+//#region converts that serve encoder and decoder data to plc and from plc
 function buffer2bin(buff)
 {
     return buff.readUInt16LE().toString(2);

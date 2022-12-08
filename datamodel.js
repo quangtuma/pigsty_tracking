@@ -1,8 +1,6 @@
-// data model
+// data model: pig information type
 
 const fs = require("fs");
-
-let PATH = "Pigs Information.txt";
 
 class Pig
 {
@@ -14,36 +12,6 @@ class Pig
     toJson()
     {
         return JSON.stringify(this);
-    }
-
-    writeInfor()
-    {
-        fs.writeFile(
-            PATH, 
-            this.toJson(),
-            function(err)
-            {
-                if (err) {
-                    return console.error(err);
-                }
-            }
-        );
-    }
-
-    readInfor(id)
-    {
-        fs.readFile(
-            PATH,
-            function(err, data)
-            {
-                if (err)
-                {
-                    return console.error(err);
-                }
-
-                console.log(data);
-            }
-        );
     }
 }
 

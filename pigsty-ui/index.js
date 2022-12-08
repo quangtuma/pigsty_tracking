@@ -1,10 +1,14 @@
+// THIS FILE WILL BE USED IN INDEX.HTML FOR DISPLAYING AND INTERFACE WITH USER
+
+//#region intialization
 var socket = io();
 
 let settingOffsets = { humidity_max: 0, humidity_min: 1, temp_max: 2, temp_min: 3, eating: 4, light_start: 5, light_stop: 6, time_eating_morning: 7, time_eating_lunch: 8, time_eating_dinner: 9 };
 
 let controlStatus = [ '0', '0', '0', '0', '0', '0', '0', '0', '0' ];
+//#endregion
 
-//#region selector paramter
+//#region select element from user interface
 var parameter_temp = document.querySelector("#parameter-temp");
 var parameter_humi = document.querySelector("#parameter-humi");
 var parameter_weight = document.querySelector("#input-weight");
@@ -27,12 +31,15 @@ var img_fan2 = document.querySelector("#img-fan-2");
 var img_shower = document.querySelectorAll("[id^='img-shower-']");
 var img_drink = document.querySelector("#img-drink");
 var img_food = document.querySelector("#img-food");
-//#endregion
 
 var input_date_add = document.querySelector("#input-date-add");
 var input_date_vaccin = document.querySelector("#input-date-vaccin");
+//#endregion
 
+// set event listeners from elements on user interface
 function setAddEventListeners(){
+
+    // setting button
     for (let i = 0; i < settings_buttons.length; i++)
         settings_buttons[i].addEventListener('click', function() {
 
@@ -46,6 +53,7 @@ function setAddEventListeners(){
             socket.emit('event-setting-click', { message:message });
     });
     
+    // manual button
     for (let i = 0; i < control_buttons.length; i++)
         control_buttons[i].addEventListener('click', function() {
 
@@ -56,6 +64,7 @@ function setAddEventListeners(){
             socket.emit('event-control-click', { offset:message.manual });
     });
 
+    // input pig information button
     input_button.addEventListener('click', function(e) {
         e.preventDefault();
         var infor = [];
@@ -70,6 +79,7 @@ function setAddEventListeners(){
 
     });
     
+    // input ID to textbox
     pig_infor[0].addEventListener('input', function(){
         if (pig_infor[0].value.length == 10)
         {
@@ -92,6 +102,7 @@ function setAddEventListeners(){
 
 setAddEventListeners();
 
+// change button status
 function changeControl(i)
 {
     var replace = "", search = "";
@@ -187,11 +198,13 @@ function changeControl(i)
     if (i < 7) control_buttons[i].textContent = control_buttons[i].textContent.replace(search, replace);
 }
 
+// event that receive data for event-save-click
 socket.on('feedback-save-click', function(data) {
     console.log(data);
     data.result ? alert('Save successfully') : alert ('ID already exists');
 });
 
+// event that receive data for event-control-click
 socket.on('feedback-control-click', function(data) {
     console.log(data);
     if (data.result != false)
@@ -203,7 +216,7 @@ socket.on('feedback-control-click', function(data) {
         alert('Please check PLC connection before using manual');
 });
 
-
+// event that receive data for button status initialization
 socket.on('init-control', function(data) {
     console.log(data);
     controlStatus = data.controls;
@@ -212,6 +225,7 @@ socket.on('init-control', function(data) {
     }
 });
 
+// event that receive data for parameter udpating to display
 socket.on('event-update-parameter', function(data) { 
     console.log(data);
     var array = data.parameterValues;
@@ -222,10 +236,3 @@ socket.on('event-update-parameter', function(data) {
 
     if (array[3] > 5) input_date_add.value = String(data.date_add);
 });
-
-// set focus hidden input
-// var waiting = true;
-// setInterval(() => {
-//     parameter_humi.textContent = parameter_temp.textContent = value++;
-//     console.log(value);
-// }, 1000);
